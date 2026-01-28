@@ -11,9 +11,9 @@ To get the frontend development server running:
 
 2.  **Install dependencies:**
     ```bash
-    npm install
+    npm install --legacy-peer-deps
     # or
-    yarn install
+    yarn install 
     # or
     pnpm install
     # or

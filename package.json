@@ -1,5 +1,5 @@
 {
-  "name": "fetch-Aleo-Token-Balance-on-zkdapp",
+  "name": "fetch_aleo_token_balance_on_zkdapp",
   "version": "0.1.0",
   "private": true,
   "scripts": {
