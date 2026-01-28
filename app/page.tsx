@@ -8,7 +8,7 @@ import { toast } from 'sonner';
 import { WalletMultiButton } from '@provablehq/aleo-wallet-adaptor-react-ui';
 import { useWallet as useAleoWallet } from '@provablehq/aleo-wallet-adaptor-react';
 
-const Home = () => {
+export default function Home() {
   const { connectedWallets, disconnectWallet } = useWallets();
 
   const {
@@ -108,4 +108,4 @@ const Home = () => {
   );
 };
 
-export { Home };
+ 
